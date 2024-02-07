@@ -1,0 +1,5 @@
+<h1> All fruits with calories between <%= @calories%> and <%= @calories.to_i + 10 %></h1>
+
+<% @all_info.each do |fruit| %>
+  <%=fruit[:name] %>
+<% end %>

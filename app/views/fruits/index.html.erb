@@ -8,3 +8,5 @@
 <p>Sugar:<%= @fruit.sugar %></p>
 <p>Carbohydrates:<%= @fruit.carbohydrates %></p>
 <p>Protein:<%= @fruit.protein %></p>
+
+<%= link_to "Find Similar Fruits by Nutrition Value", fruits_nutritional_path(calories: @fruit.calories, name: @fruit.name) %>
