@@ -10,8 +10,8 @@ RSpec.describe "foods index" do
 
       fill_in "Search for Fruit", with: "banana" 
       click_on "Search"
-save_and_open_page
-      expect(current_path).to eq("/foods")
+
+      expect(current_path).to eq("/fruits")
       expect(page).to have_content("Banana")
       expect(page).to have_content("Musaceae")
       expect(page).to have_content("Zingiberales")

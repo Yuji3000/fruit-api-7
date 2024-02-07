@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "welcome#index"
-  post "/foods", to: "foods#index"
+  post "/fruits", to: "fruits#index"
 end
