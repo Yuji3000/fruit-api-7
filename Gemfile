@@ -59,7 +59,8 @@ group :development, :test do
   gem "simplecov"
   gem "webmock"
   gem "launchy"
-  # gem "vcr"
+  gem "vcr"
+  gem 'shoulda-matchers'
 end
 
 group :test do 
